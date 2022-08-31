@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const Models = require('../models');
 const CustomError = require('../../utils/CustomError');
+const { response } = require('express');
 require('dotenv').config();
 
 const { JWT_SECRET } = process.env;
@@ -37,4 +38,12 @@ const userLogged = async (req) => {
    return token;
 };
 
-module.exports = userLogged;
+const getUsers = async () => {
+    const users = await Models.User.findAll({ attributes: { exclude: ['password'] } });
+    if (!users) {
+        throw new CustomError(404, 'No users found');
+    }
+    return users;
+};
+
+module.exports = { userLogged, getUsers };
