@@ -18,4 +18,10 @@ const createNewCategory = async ({ name }) => {
     return newCategory;
 };
 
-    module.exports = { createNewCategory };
+const getAllCategories = async () => {
+    const categories = await Models.Category.findAll();
+    
+    return categories;
+};
+
+    module.exports = { createNewCategory, getAllCategories };
