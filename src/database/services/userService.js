@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const Models = require('../models');
 const CustomError = require('../../utils/CustomError');
-const { response } = require('express');
 require('dotenv').config();
 
 const { JWT_SECRET } = process.env;
