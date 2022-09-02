@@ -8,13 +8,13 @@ const controllerWrapper = require('../../middlewares/controllerWrapper');
 //   return res.status(201).json(post);
 // };
 const getAllCategories = controllerWrapper(async (_req, res) => {
-  const categories = await postService.getAllCategories();
+  const categories = await postService.getAllPosts();
   return res.status(200).json(categories);
 });
 
 const getCategoryById = controllerWrapper(async (req, res) => {
     const { id } = req.params;
-    const category = await postService.getCategoryById(id);
+    const category = await postService.getPostById(id);
     return res.status(200).json(category);
     });
 
