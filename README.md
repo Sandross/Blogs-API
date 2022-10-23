@@ -1,30 +1,14 @@
 # Boas-vindas ao repositório do projeto API de Blogs!
-
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Api Realizada durante o Módulo de Back-End da Trybe
 
 <br />
 
-
-# Entregáveis
-
 <details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary>
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary>
 
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
+  "Neste projeto você vai desenvolver uma API e um banco de dados para a produção de conteúdo para um blog! "
 
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-
-<br />
-</details>
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary>
-
-  Neste projeto você vai desenvolver uma API e um banco de dados para a produção de conteúdo para um blog! 
-
-  Você deverá desenvolver uma aplicação em `Node.js` usando o pacote `sequelize` para fazer um `CRUD` de posts.
+ " Você deverá desenvolver uma aplicação em `Node.js` usando o pacote `sequelize` para fazer um `CRUD` de posts.
 # Orientações
 
 <details>
